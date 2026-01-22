@@ -34,10 +34,10 @@ CRITICAL RULES:
 """
 
 # 4. INITIALIZE CHAT
-#if "messages" not in st.session_state:
-#    st.session_state.messages = []
+if "messages" not in st.session_state:
+    st.session_state.messages = []
     # Add a welcome message from the AI
-#    st.session_state.messages.append({"role": "model", "content": "Bonjour Mathild ! Ready to learn some Tamil? 😎"})
+    st.session_state.messages.append({"role": "model", "content": "Bonjour Mathild ! Ready to learn some Tamil? 😎"})
 
 # 5. DISPLAY HISTORY
 for message in st.session_state.messages:
