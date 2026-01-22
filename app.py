@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. SETUP THE PAGE
-st.set_page_config(page_title="Mathild Parle Tamoul", page_icon="🧡")
+st.set_page_config(page_title="Mathilde Parle Tamoul", page_icon="🧡")
 st.title("🧡 Mathild Parle Tamoul")
 st.write("Ask me anything in French or English!")
 
