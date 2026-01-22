@@ -1,0 +1,7 @@
+{
+  "name": "Mathilde parle Tamoul",
+  "description": "A witty, supportive Tamil tutor for French speakers, focusing on colloquial 'Tanglish' for romantic and everyday situations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
